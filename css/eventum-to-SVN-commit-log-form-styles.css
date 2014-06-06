@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+html, body {
+	color: #000000;
+	background-color: #ffffff;
+	font-family: sans-serif;
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0;
+}
+
+#eventum-to-SVN-commit-log-container {
+	width: 300px;
+	padding: 0 10px;
+}
+#eventum-to-SVN-commit-log-generated {
+	height: 175px;
+}
+#eventum-options-container {
+	height: auto;
+	max-width: 800px;
+	min-width: 240px;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+}
+#eventum-icon {
+	width: 100%;
+	text-align: center;
+}
+#eventum-save-options {
+	float: right;
+	font-size: 1.3em;
+}
+#eventum-to-SVN-commit-log-url {
+	width: 90%;
+	height: 23px;
+}
+
+.save-status {
+	height: 20px;
+	background-color: #eee;
+	padding: 10px 10px 5px 10px;
+}

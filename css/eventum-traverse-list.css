@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/** @author (@colecmc) */
+
+.eventum-row-highlight:hover {
+	outline: #a337ff 1px solid;
+}
+
+.eventum-row-highlight:last-child:hover,
+.eventum-row-highlight:nth-child(1):hover,
+.eventum-row-highlight:nth-child(2):hover {
+	outline: none;
+}
