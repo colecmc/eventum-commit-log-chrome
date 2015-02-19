@@ -1,8 +1,8 @@
 {
-  "name": "Eventum Commit Log: colecmc",
-  "version": "1.0",
+  "name": "Eventum Commit Log",
+  "version": "1.1",
   "author": "colecmc",
-  "description": "Eventum Commit Log grabs id from the url of the view page, tries to grab the summary and prompts user for a description. Only tested with Eventum 2.1.1",
+  "description": "Eventum Commit Log provides various utilities for Eventum 2.1.1.",
   "options_page": "options.html",
   "background": {
     "scripts": ["js/background.js"],

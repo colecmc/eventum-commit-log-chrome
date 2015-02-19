@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>Update Issue</title>
+        <meta name="description" content="">
+		<link rel="stylesheet" href="../css/eventum-page-action-popup.css" />
+    </head>
+    <body>
+
+		<div id="update-issue" class="grid container">
+			<h1>Choose An Update Type</h1>
+
+			<details class="grid-c12">
+				<summary class="summary" title="Add change log status update to a single item.">Add Item Status</summary>
+				<form action="#">
+				<p><select id="item-status" class="full" name="status">
+					<option label="Fix tested in DEV (Ready to Deploy to QC)" value="23">Fix tested in DEV (Ready to Deploy to QC)</option>
+					<option label="Fix Deployed to QC (Ready for Testing)" value="25">Fix Deployed to QC (Ready for Testing)</option>
+					<option label="Fix tested in QC (Ready to Deploy to PROD)" value="24">Fix tested in QC (Ready to Deploy to PROD)</option>
+					<option label="Fix Deployed to PROD Prev (Ready for Testing)" value="21">Fix Deployed to PROD Prev (Ready for Testing)</option>
+					<option label="Fix Tested in PROD Prev (Ready to Deploy to PROD Live)" value="12">Fix Tested in PROD Prev (Ready to Deploy to PROD Live)</option>
+					<option label="Fix Deployed to Prod Live (Ready for Re-Testing)" value="4">Fix Deployed to Prod Live (Ready for Re-Testing)</option>
+					<option label="On Hold" value="20">On Hold</option>
+					<option label="Fix Failed Testing" value="8">Fix Failed Testing</option>
+					<option label="Fix Passed Testing (Approved)" value="7">Fix Passed Testing (Approved)</option>
+				</select></p>
+				</form>
+			</details>
+
+			<p><button id="change-log" class="summary grid-c12" title="Add change log text and separator to this update.">Change Log</button></p>
+
+			<p><button id="mark-complete" class="summary grid-c12" title="Mark a task as completed by you.">Mark Complete</button></p>
+
+   <p><button id="time-stamp" class="summary grid-c12" title="Add a time stamp to this update.">Time Stamp</button></p>
+
+		</div>
+
+		<script src="../js/eventum-pass-description.js"></script>
+	</body>
+</html>

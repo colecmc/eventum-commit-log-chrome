@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+html, body {
+	color: #000000;
+	background-color: #ffffff;
+	font-family: sans-serif;
+	font-size: 0.9em;
+	margin: 0;
+	padding: 0;
+}
+
+.block {
+	clear: both;
+	margin: 4% 0;
+	height: auto;
+	display: block;
+	overflow: hidden;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.float-left {
+	float: left;
+}
+
+.container {
+	padding: 2% 6%;
+	margin: 0 auto;
+	min-width: 240px;
+	width: 282px;
+	max-width: 480px;
+}
+
+.eventum-commit-desc {
+	padding: 2%;
+	min-height: 100px;
+	margin-bottom: 4%;
+}
+
+.summary,
+.summary:focus,
+.summary:active {
+	border: 0 none;
+	outline: 0 none;
+	border-bottom: 1px solid white;
+}
+
+.summary {
+	padding: 2%;
+	text-align: left;
+	background-color: #ddd;
+}
+
+.summary:hover,
+.summary:focus {
+	cursor: pointer;
+	background-color: #ccc;
+}
+
+.updated {
+	background-color: #6F0;
+}
+
+/* --- Scalable Grid --- */
+.grid > .column:first-of-type{
+    padding-left:0;
+	float:left;
+}
+
+.column {
+    float:right;
+    padding-left:3.3333%;
+}
+
+.grid-c1 {
+  width: 7.4999%;
+}
+
+.grid-c2 {
+  width: 14.9998%;
+}
+
+.grid-c3 {
+  width: 22.4997%;
+}
+
+.grid-c4 {
+  width: 29.9996%;
+}
+
+.grid-c5 {
+  width: 37.4995%;
+}
+
+.grid-c6 {
+  width: 44.9994%;
+}
+
+.grid-c7 {
+  width: 52.4993%;
+}
+
+.grid-c8 {
+  width: 59.9992%;
+}
+
+.grid-c9 {
+  width: 67.4991%;
+}
+
+.grid-c10 {
+  width: 74.999%;
+}
+
+.grid-c11 {
+  width: 82.4989%;
+}
+
+.grid-c12 {
+  width: 89.9988%;
+}
+
+.full {
+  width: 100%;
+}
