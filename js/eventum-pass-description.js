@@ -29,6 +29,13 @@
             });
         }
 
+        function sensDescription (message) {
+            chrome.tabs.sendMessage(tabs[0].id, {
+                desc: message
+            });
+        }
+
+
         function getUpdateType (event) {
             /**
              * Decides what to send based on the event target.
@@ -37,20 +44,15 @@
             switch (event.target.id) {
                 case 'item-status':
                     if (event.type === 'change') {
-                        chrome.tabs.sendMessage(tabs[0].id, {
-                            desc: event.target.selectedOptions[0].label
                         });
+                        sensDescription (event.target.selectedOptions[0].label);
                     }
                     break;
                 case 'change-log':
-                    chrome.tabs.sendMessage(tabs[0].id, {
-                        desc: 1
                     });
                     break;
                 case 'mark-complete':
-                    chrome.tabs.sendMessage(tabs[0].id, {
-                        desc: 2
-                    });
+                    sensDescription (2);
                     break;
                 case 'time-stamp':
                     chrome.tabs.sendMessage(tabs[0].id, {

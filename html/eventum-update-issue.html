@@ -15,6 +15,8 @@
 				<summary class="summary" title="Add change log status update to a single item.">Add Item Status</summary>
 				<form action="#">
 				<p><select id="item-status" class="full" name="status">
+     <option label="Select" value="00">Select</option>
+     <option label="Fix Ready to Deploy to DEV" value="36">Fix Ready to Deploy to DEV</option>
 					<option label="Fix tested in DEV (Ready to Deploy to QC)" value="23">Fix tested in DEV (Ready to Deploy to QC)</option>
 					<option label="Fix Deployed to QC (Ready for Testing)" value="25">Fix Deployed to QC (Ready for Testing)</option>
 					<option label="Fix tested in QC (Ready to Deploy to PROD)" value="24">Fix tested in QC (Ready to Deploy to PROD)</option>
@@ -27,6 +29,18 @@
 				</select></p>
 				</form>
 			</details>
+
+<!--
+			<details class="grid-c12">
+				<summary class="summary" title="Describe test cases with before and after scenarios.">Describe Test Cases</summary>
+				<form action="#" name="form-test-cases">
+				<p>
+					<label class="column grid-c9">How many cases would you like to add?</label>
+					<input id="test-cases" class="float-left column test-cases grid-c3" title="Type ENTER to submit - How many cases would you like to add?" placeholder="1" type="number" min="1" max="5" value="" />
+				</p>
+				</form>
+			</details>
+-->
 
 			<p><button id="change-log" class="summary grid-c12" title="Add change log text and separator to this update.">Change Log</button></p>
 
